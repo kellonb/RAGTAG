@@ -1,0 +1,8 @@
+# to install RAGTAG genA
+make install 
+
+# to clean up object files
+make clean 
+
+# for debugging purpose
+make debug

@@ -1,0 +1,78 @@
+./genA -i input -p parmfile -r try.restart -s scores.try.dat -f amber.frcmod -y fit_energy.dat -o try.log -a AZF.file 
+# if using a restart file with amplitude parameters
+./genA -i input -p parmfile -c try.restart -r try.restart1 -s scores.try.dat -f amber.frcmod -y fit_energy.dat -o try.log -a AZF.file
+# if you are using one that was written from genA then use as or else use the python script make_genA_restart to make
+or list the amplitudes with a space betweeen each in a file
+
+./genA_cpu -i input -p parmfile -r try.cpu.restart -s scores.try.cpu.dat -f amber.cpu.frcmod -y fit_energy.cpu.dat -o try.cpu.log
+
+AZP file order is decreasing periodicity for a given dihedral
+for example if you have dihedral 1 with 4 periodicity, and you want the Vs for n=3 and n=1 to be zero, then the file will be 
+1 0 1 0
+for example if you have two dihedrals with 4 periodicity, and you want the Vs to be the same for a given periodicity (e.g n=3)then the file will be
+1 -4 1 1 1 1 1 1
+The negative is used to tell the program you want two periodicity to have the same value
+the number of the ngative tell the program to that the V of that periodicity (n=3 of dih1) will take the V of the one 4 index down (n=3 for diih2) V is the amplitude
+
+
+ncos is number of cosine (number of periodicity)
+for parse.cpp is to parse the parmfile
+for load.cpp is to load the QM and MM energy etc and create important arrays
+
+-i is the input file with the dihedral information 
+-p is the parmfile that has the genetic algorithm parameters 
+-f is the dihedral frcmod file
+-o is the output file 
+-r is to save restart file 
+-c is the option to load a restart file
+-s is the option to save score file 
+-y is to print begining target energy and final energy  
+
+The parmfile example
+pSize=10; # population size which is the number of chromosomes
+nGen=100; # Number of generation or iteration of the genetic algorithm
+pMut=0.01 # permissible mutation rate 
+max=0.5  # Maximum perturbation for mutation 
+pCross=0.8 # crossover probability
+rseed=314568 # random seed use to generate the random numbers 
+peng=5 # pring every n generations
+ncp=5  # number of chromosomes to print 
+nCos=3  # number of cosine you want to use to fit the data
+keep=0.1 # percentage of the psize u want to keep as elitist 0.0 would remove elitism, 1 would allow all parents to compete against the next generation
+nChrom=1 # is the number of chromosome that you load in your restart file  
+# good range
+psize: population size, 1000-2000 
+nGen: number of generations, > 100000 
+pMut: probability of mutation, 0.01 - 0.001
+max: maximal permissible mutation, 0.5 - 0.001
+pCross: probability of crossover 0.8-0.9 
+randomseed: sixdigit random number, upon mutation, the lowest bit of the random number is 
+keep 0.1  10% of psize as elitist
+small number of peng slows down the code
+aZp do not have to be set
+used to determine whether the amplitude or the phase shift will change.
+input file: parametersfitting data using the following format:
+_____________________________________________________________________        
+-<dihedral> <AMBER atom type for dihedral 1>                         |
+-<dihedral> <AMBER atom type for dihedral 2>                         |
+<name of data set> <dihedral 1> <dihedral 2>                         |
+ <dihedral 1 value> <dihedral 2 value> <E_QM> <E_MM>                 |
+ <dihedral 1 value> <dihedral 2 value> <E_QM> <E_MM>                 |
+                    ...                                              |
+/                                                                    | 
+<name of data set> <dihedral 1> <dihedral 2>                         |
+ <dihedral 1 value> <dihedral 2 value> <E_QM> <E_MM>                 |
+ <dihedral 1 value> <dihedral 2 value> <E_QM> <E_MM>                 |  
+                   ...                                               |
+/                                                                    |  
+_____________________________________________________________________|
+<dihedral> is the name of dihedral e.g phi, psi, chi1, chi2, chi3, etc
+<AMBER atom type for dihedral 1> e.g chi1 is N -CX-2C-2C for Met, get from frcmod file
+<name of data set> is any name, e.g Metalpha, Metbeta, Metcharge
+<dihedral 1 value> this is the dihedral value (deg) of the optimized QM structures e.g 105.62
+<E_QM> the QM energy of conformation i with restraint dihedral
+<E_MM> the MM energy of conformation i with restraint dihedral with zeroed dihedral parameters in the frcmod
+... repeat for all conformations within a break 
+/ (refer to as break (brk))
+a break seperate conformations that are different e.g alpha backbone, beta backbone, charge amino acids
+ 
