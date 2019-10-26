@@ -1,0 +1,9 @@
+#dih_name dih_mask          dih_atom_type     
+chi3,     @11 @14 @15 @16,  2C-S -S -CT,      
+chi4,     @14 @15 @16 @19,  S -S -CT-MC,      
+chi5,     @15 @16 @19 @40,  S -CT-MC-MC,      
+chi5p,    @15 @16 @19 @20,  S -CT-MC-YC,      
+chi3,     @11 @14 @15 @16,  2C-S -S -CT,      
+chi4,     @14 @15 @16 @19,  S -S -CT-MC,      
+chi5,     @15 @16 @19 @40,  S -CT-MC-MC,      
+chi5p,    @15 @16 @19 @20,  S -CT-MC-YC,      

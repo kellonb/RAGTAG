@@ -1,0 +1,3 @@
+dihnum = 4, nbreaks = 2,
+flag_mm_read = 1, mm_read_file = ./list_mmstructure.dat,
+flag_qm_read = 1, qm_read_file = ./list_qmstructure.dat,
