@@ -1,0 +1,8 @@
+#!/bin/sh 
+
+# Run these on a node with GPUs interactive, or create your own submission script based and submit with the arguments below
+genA=../../bin/genA
+
+# look at the manual at ..... for information on these flags and input file or the readme file 
+
+$genA -i TPOMET_genA_input -p ./parmfile.4 -r TPOMET.restart -s scores.TPOMET.dat -f amber.frcmod -y fit_energy.dat -o TPOMET.log > test.ref.TPOMET

@@ -1,0 +1,181 @@
+Population Size (pSize): 10
+
+Number of Generations (nGen): 1
+
+Probability of Mutations (pMut): 0.01
+
+Maximal permissible mutation (max): 0.5
+
+Probability of crossover (pCross): 0.8
+
+Random seed (rseed): 314568
+
+Print scores every  5generations (peng)
+
+Print scores of only 5 chromosomes every peng 
+
+Periodicity (nCos): 4
+
+We will use 0.1 for the elitist regime
+
+Number of dihedral(s) (nDih): 3
+
+Number of Fitting groups (nFg): 3
+
+Number of chromosome reported is : 1
+
+Input file loaded ('_')
+
+Here is your loaded Vs(amplitudes) for first two chromosomes: 
+
+
+-2.05308 0.659251 -0.3117 1.08003 1.07308 -0.728775 -3.80935 0.63951 -0.233131 1.02909 -0.0109699 -1.41857 
+0.245741 0.763092 -2.2012 2.62224 -0.919121 -0.951737 -1.72937 1.44701 1.26187 -0.064157 0.551339 1.31329 
+
+Printing all of the final dihedral parameters, check your -f file for the best one 
+
+The first one is the best score, best parameters
+
+chromosome: 10
+Average Score: 1.403835
+N- CX-2C-2C       1    0.431263     180   -1
+N- CX-2C-2C       1    1.513433     180   -2
+N- CX-2C-2C       1    0.634621     180   -3
+N- CX-2C-2C       1    0.015693     180    4
+CX-2C-2C-SE       1    1.151284     180   -1
+CX-2C-2C-SE       1    0.804417       0   -2
+CX-2C-2C-SE       1    0.459714       0   -3
+CX-2C-2C-SE       1    0.351599       0    4
+2C-2C-SE-CT       1    0.671974       0   -1
+2C-2C-SE-CT       1    0.797603     180   -2
+2C-2C-SE-CT       1    0.771562       0   -3
+2C-2C-SE-CT       1    0.996404       0    4
+chromosome: 0
+Average Score: 1.521907
+N- CX-2C-2C       1    0.511446       0   -1
+N- CX-2C-2C       1    0.838625       0   -2
+N- CX-2C-2C       1    0.658274       0   -3
+N- CX-2C-2C       1    0.459370       0    4
+CX-2C-2C-SE       1    1.100741     180   -1
+CX-2C-2C-SE       1    0.440736       0   -2
+CX-2C-2C-SE       1    0.396790       0   -3
+CX-2C-2C-SE       1    0.064820       0    4
+2C-2C-SE-CT       1    1.078455       0   -1
+2C-2C-SE-CT       1    0.806161       0   -2
+2C-2C-SE-CT       1    0.219002       0   -3
+2C-2C-SE-CT       1    0.362390     180    4
+chromosome: 1
+Average Score: 1.652427
+N- CX-2C-2C       1    0.365743       0   -1
+N- CX-2C-2C       1    0.889531     180   -2
+N- CX-2C-2C       1    0.338105       0   -3
+N- CX-2C-2C       1    1.021358       0    4
+CX-2C-2C-SE       1    1.455946     180   -1
+CX-2C-2C-SE       1    0.340682     180   -2
+CX-2C-2C-SE       1    0.183958       0   -3
+CX-2C-2C-SE       1    1.369350       0    4
+2C-2C-SE-CT       1    1.137173     180   -1
+2C-2C-SE-CT       1    0.426118     180   -2
+2C-2C-SE-CT       1    0.291864     180   -3
+2C-2C-SE-CT       1    0.043636     180    4
+chromosome: 17
+Average Score: 1.819354
+N- CX-2C-2C       1    0.365743       0   -1
+N- CX-2C-2C       1    0.889531     180   -2
+N- CX-2C-2C       1    0.338105       0   -3
+N- CX-2C-2C       1    1.021358       0    4
+CX-2C-2C-SE       1    0.467538     180   -1
+CX-2C-2C-SE       1    1.914868       0   -2
+CX-2C-2C-SE       1    0.168199     180   -3
+CX-2C-2C-SE       1    1.711761     180    4
+2C-2C-SE-CT       1    0.591681     180   -1
+2C-2C-SE-CT       1    0.950239       0   -2
+2C-2C-SE-CT       1    0.275732     180   -3
+2C-2C-SE-CT       1    1.266972       0    4
+chromosome: 19
+Average Score: 1.918627
+N- CX-2C-2C       1    0.189425     180   -1
+N- CX-2C-2C       1    0.842497     180   -2
+N- CX-2C-2C       1    1.954477       0   -3
+N- CX-2C-2C       1    0.401197     180    4
+CX-2C-2C-SE       1    0.647179       0   -1
+CX-2C-2C-SE       1    0.849064     180   -2
+CX-2C-2C-SE       1    1.097042     180   -3
+CX-2C-2C-SE       1    0.928065     180    4
+2C-2C-SE-CT       1    0.637482     180   -1
+2C-2C-SE-CT       1    0.516309     180   -2
+2C-2C-SE-CT       1    0.806033       0   -3
+2C-2C-SE-CT       1    0.043636     180    4
+chromosome: 12
+Average Score: 1.921043
+N- CX-2C-2C       1    0.528400       0   -1
+N- CX-2C-2C       1    0.799398       0   -2
+N- CX-2C-2C       1    0.570598       0   -3
+N- CX-2C-2C       1    1.411481     180    4
+CX-2C-2C-SE       1    1.455946     180   -1
+CX-2C-2C-SE       1    0.440736       0   -2
+CX-2C-2C-SE       1    0.396790       0   -3
+CX-2C-2C-SE       1    0.064820       0    4
+2C-2C-SE-CT       1    1.078455       0   -1
+2C-2C-SE-CT       1    0.806161       0   -2
+2C-2C-SE-CT       1    0.219002       0   -3
+2C-2C-SE-CT       1    0.362390     180    4
+chromosome: 5
+Average Score: 2.062015
+N- CX-2C-2C       1    0.528400       0   -1
+N- CX-2C-2C       1    0.799398       0   -2
+N- CX-2C-2C       1    0.570598       0   -3
+N- CX-2C-2C       1    1.411481     180    4
+CX-2C-2C-SE       1    0.467538     180   -1
+CX-2C-2C-SE       1    1.914868       0   -2
+CX-2C-2C-SE       1    0.168199     180   -3
+CX-2C-2C-SE       1    1.711761     180    4
+2C-2C-SE-CT       1    0.591681     180   -1
+2C-2C-SE-CT       1    0.950239       0   -2
+2C-2C-SE-CT       1    0.275732     180   -3
+2C-2C-SE-CT       1    0.043636     180    4
+chromosome: 8
+Average Score: 2.091884
+N- CX-2C-2C       1    0.511446       0   -1
+N- CX-2C-2C       1    0.838625       0   -2
+N- CX-2C-2C       1    0.658274       0   -3
+N- CX-2C-2C       1    0.459370       0    4
+CX-2C-2C-SE       1    1.100741     180   -1
+CX-2C-2C-SE       1    0.340682     180   -2
+CX-2C-2C-SE       1    0.183958       0   -3
+CX-2C-2C-SE       1    1.369350       0    4
+2C-2C-SE-CT       1    1.137173     180   -1
+2C-2C-SE-CT       1    0.426118     180   -2
+2C-2C-SE-CT       1    0.291864     180   -3
+2C-2C-SE-CT       1    1.266972       0    4
+chromosome: 16
+Average Score: 2.143111
+N- CX-2C-2C       1    0.365743       0   -1
+N- CX-2C-2C       1    0.889531     180   -2
+N- CX-2C-2C       1    0.338105       0   -3
+N- CX-2C-2C       1    1.021358       0    4
+CX-2C-2C-SE       1    1.455946     180   -1
+CX-2C-2C-SE       1    0.440736       0   -2
+CX-2C-2C-SE       1    0.396790       0   -3
+CX-2C-2C-SE       1    0.064820       0    4
+2C-2C-SE-CT       1    1.078455       0   -1
+2C-2C-SE-CT       1    0.806161       0   -2
+2C-2C-SE-CT       1    0.701417       0   -3
+2C-2C-SE-CT       1    1.058141     180    4
+chromosome: 2
+Average Score: 2.155798
+N- CX-2C-2C       1    0.511446       0   -1
+N- CX-2C-2C       1    0.838625       0   -2
+N- CX-2C-2C       1    0.658274       0   -3
+N- CX-2C-2C       1    0.459370       0    4
+CX-2C-2C-SE       1    1.100741     180   -1
+CX-2C-2C-SE       1    0.340682     180   -2
+CX-2C-2C-SE       1    0.183958       0   -3
+CX-2C-2C-SE       1    1.369350       0    4
+2C-2C-SE-CT       1    1.137173     180   -1
+2C-2C-SE-CT       1    0.426118     180   -2
+2C-2C-SE-CT       1    0.291864     180   -3
+2C-2C-SE-CT       1    1.423663       0    4
+
+
+GenA took 1360 milli seconds to obtain your parameters

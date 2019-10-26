@@ -1,0 +1,89 @@
+#dE = (E (QMi) - E (QMref) ) - ( E (MMi) - E (MMref) 
+
+#ref is the first structure in each dataset  
+
+#Below is the target relative energy and the best relative energy after the fit 
+
+#Conformations      dE      dE_from_fit       Error: dE - dE_fromfit
+DATASET 0:
+dE for Conf 0:  0; Parameters Energy for Conf 0: -0.188171
+dE for Conf 1:  -0.8309; Parameters Energy for Conf 1: 0.000920236
+REE for Conf 1 and 0: 1.01999
+dE for Conf 2:  -6.2797; Parameters Energy for Conf 2: 0.188168
+REE for Conf 2 and 0: 6.65604
+REE for Conf 2 and 1: 5.63605
+dE for Conf 3:  -8.5329; Parameters Energy for Conf 3: -0.00123501
+REE for Conf 3 and 0: 8.71984
+REE for Conf 3 and 1: 7.69984
+REE for Conf 3 and 2: 2.0638
+dE for Conf 4:  -5.23; Parameters Energy for Conf 4: -0.188173
+REE for Conf 4 and 0: 5.23
+REE for Conf 4 and 1: 4.21001
+REE for Conf 4 and 2: 1.42604
+REE for Conf 4 and 3: 3.48984
+dE for Conf 5:  -0.198; Parameters Energy for Conf 5: -0.00344335
+REE for Conf 5 and 0: 0.382727
+REE for Conf 5 and 1: 0.637264
+REE for Conf 5 and 2: 6.27331
+REE for Conf 5 and 3: 8.33711
+REE for Conf 5 and 4: 4.84727
+dE for Conf 6:  3.7481; Parameters Energy for Conf 6: 0.188159
+REE for Conf 6 and 0: 3.37177
+REE for Conf 6 and 1: 4.39176
+REE for Conf 6 and 2: 10.0278
+REE for Conf 6 and 3: 12.0916
+REE for Conf 6 and 4: 8.60177
+REE for Conf 6 and 5: 3.7545
+dE for Conf 7:  0.187; Parameters Energy for Conf 7: -0.00106606
+REE for Conf 7 and 0: 0.000104621
+REE for Conf 7 and 1: 1.01989
+REE for Conf 7 and 2: 6.65593
+REE for Conf 7 and 3: 8.71973
+REE for Conf 7 and 4: 5.22989
+REE for Conf 7 and 5: 0.382623
+REE for Conf 7 and 6: 3.37187
+dE for Conf 8:  -5.1419; Parameters Energy for Conf 8: -0.188169
+REE for Conf 8 and 0: 5.1419
+REE for Conf 8 and 1: 4.12191
+REE for Conf 8 and 2: 1.51414
+REE for Conf 8 and 3: 3.57793
+REE for Conf 8 and 4: 0.0880957
+REE for Conf 8 and 5: 4.75917
+REE for Conf 8 and 6: 8.51367
+REE for Conf 8 and 7: 5.1418
+dE for Conf 9:  -6.2534; Parameters Energy for Conf 9: 0.0017457
+REE for Conf 9 and 0: 6.44332
+REE for Conf 9 and 1: 5.42333
+REE for Conf 9 and 2: 0.212722
+REE for Conf 9 and 3: 2.27652
+REE for Conf 9 and 4: 1.21332
+REE for Conf 9 and 5: 6.06059
+REE for Conf 9 and 6: 9.81509
+REE for Conf 9 and 7: 6.44321
+REE for Conf 9 and 8: 1.30141
+dE for Conf 10:  -3.6943; Parameters Energy for Conf 10: 0.188173
+REE for Conf 10 and 0: 4.07064
+REE for Conf 10 and 1: 3.05065
+REE for Conf 10 and 2: 2.58539
+REE for Conf 10 and 3: 4.64919
+REE for Conf 10 and 4: 1.15935
+REE for Conf 10 and 5: 3.68792
+REE for Conf 10 and 6: 7.44241
+REE for Conf 10 and 7: 4.07054
+REE for Conf 10 and 8: 1.07126
+REE for Conf 10 and 9: 2.37267
+dE for Conf 11:  -1.4432; Parameters Energy for Conf 11: 0.00177836
+REE for Conf 11 and 0: 1.63315
+REE for Conf 11 and 1: 0.613158
+REE for Conf 11 and 2: 5.02289
+REE for Conf 11 and 3: 7.08669
+REE for Conf 11 and 4: 3.59685
+REE for Conf 11 and 5: 1.25042
+REE for Conf 11 and 6: 5.00492
+REE for Conf 11 and 7: 1.63304
+REE for Conf 11 and 8: 3.50875
+REE for Conf 11 and 9: 4.81017
+REE for Conf 11 and 10: 2.43749
+Scores per Datasets:
+     0           4.19779
+

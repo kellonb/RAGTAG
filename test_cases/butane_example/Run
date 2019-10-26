@@ -1,0 +1,5 @@
+#!/bin/bash
+
+genA=../../bin/genA
+
+$genA -i genA_input -p parmfile.4 -r butane_4p.restart -s butane_4p.score -f butane_4p.frcmod -y butane_4p.fit -o butane_4p.log 

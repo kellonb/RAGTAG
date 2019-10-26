@@ -1,0 +1,6034 @@
+Population Size (pSize): 2000
+
+Number of Generations (nGen): 1000
+
+Probability of Mutations (pMut): 0.01
+
+Maximal permissible mutation (max): 0.5
+
+Probability of crossover (pCross): 0.8
+
+Random seed (rseed): 314568
+
+Print scores every  5generations (peng)
+
+Print scores of only 5 chromosomes every peng 
+
+Periodicity (nCos): 4
+
+We will use 0.2 for the elitist regime
+
+Number of dihedral(s) (nDih): 1
+
+Number of Fitting groups (nFg): 1
+
+Input file loaded ('_')
+
+
+Printing all of the final dihedral parameters, check your -f file for the best one 
+
+The first one is the best score, best parameters
+
+chromosome: 2869
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3188
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1954
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3274
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1713
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 580
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 299
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3519
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 686
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3745
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1857
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1190
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3658
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 756
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1131
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 520
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 103
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 518
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 288
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2447
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3237
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2476
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2014
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1575
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2200
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3877
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1637
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 44
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1377
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3065
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 692
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3192
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2402
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 623
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1647
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2290
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3682
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1219
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3291
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1630
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 302
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 484
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 6
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1873
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 971
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 795
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1054
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1067
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3946
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 665
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1744
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 19
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1800
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1835
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3757
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2895
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1387
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2268
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3105
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1955
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2185
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 397
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 966
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 368
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3609
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2764
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 593
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2244
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3995
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2937
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 644
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 588
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1918
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 417
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2158
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3117
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 116
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2921
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2417
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1172
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2778
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 214
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 965
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 784
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1205
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 676
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3393
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 466
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 530
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3939
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2933
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 967
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 873
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3678
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1297
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3717
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2720
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1494
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1551
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 824
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2995
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1625
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2297
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1246
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3638
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 587
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 724
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 516
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3584
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2879
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2515
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 210
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1995
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 283
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3267
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 718
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1936
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1545
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3623
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1487
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3452
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 485
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1522
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2884
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1292
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1574
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2585
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3615
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1815
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 24
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3872
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2198
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 40
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2613
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2647
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3327
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3617
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 293
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2950
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1413
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 487
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 774
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2306
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1201
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1587
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3687
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3930
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2790
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2587
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2346
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3650
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3472
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3200
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2542
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 984
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1927
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3874
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2394
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1785
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1717
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3933
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 761
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2694
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2745
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 717
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2730
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1967
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2640
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 282
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3845
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 237
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 145
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3381
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1690
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3789
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 227
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 251
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1908
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 872
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2522
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2924
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3988
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1810
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 806
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1703
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1305
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 325
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3110
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3241
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1059
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 861
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 393
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1573
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 244
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 7
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1626
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1516
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1617
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1981
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1821
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2115
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1680
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 875
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3938
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 581
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 883
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1979
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 527
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 891
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2912
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 892
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1127
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2352
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1502
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3646
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1712
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2328
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2703
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2351
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 540
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2153
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3848
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2199
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 452
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2188
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3937
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3684
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1799
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2973
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 709
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1601
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 666
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2195
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1282
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2668
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 175
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2824
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1826
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 415
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3566
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 673
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 13
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3685
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1610
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3953
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1407
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 501
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2685
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3779
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3665
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2473
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3875
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1814
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1831
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2211
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3342
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3739
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 429
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3774
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 906
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 96
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2027
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1041
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3442
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3967
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 813
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1549
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2420
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3661
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1291
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2192
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3721
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2379
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2057
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 196
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1156
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1486
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2077
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1928
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 234
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 118
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1584
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 748
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 525
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3657
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3175
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 536
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2972
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3360
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2845
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 219
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2678
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1269
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1836
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 629
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 643
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2881
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 204
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2886
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3139
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2307
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1388
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1524
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3330
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1820
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 199
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2923
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3689
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1861
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2472
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3748
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2011
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 115
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1289
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 8
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2103
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3079
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1020
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1505
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2291
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1720
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2389
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1664
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3095
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 625
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1501
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1724
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3087
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 98
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2772
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 568
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3247
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 36
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 479
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1818
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 120
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 92
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1589
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1431
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1525
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1934
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 606
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 165
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3611
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2091
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3838
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1336
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3889
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3317
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 58
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2000
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3399
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 720
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2517
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2100
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 135
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2743
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1663
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1732
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1250
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2632
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3926
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 347
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 621
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1652
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 870
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2605
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 468
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1359
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2604
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2783
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1975
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2363
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2406
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 896
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 534
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3302
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2822
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1123
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 232
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1915
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 337
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1495
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1457
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1706
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2820
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3746
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1737
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 899
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3924
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3078
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 753
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2277
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 298
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1239
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2001
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1077
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 565
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3564
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2905
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1579
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 64
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1273
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 572
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3037
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2493
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1943
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1948
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1240
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1427
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1144
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3477
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2992
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2181
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 305
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3404
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3783
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3380
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2965
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 27
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3592
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2974
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3226
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 15
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1705
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2780
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2025
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3443
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3562
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 278
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2056
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3509
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3417
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3220
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2052
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3999
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1220
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2990
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1761
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 105
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 404
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3289
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 926
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1300
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1606
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1774
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2958
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3066
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2145
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3761
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 564
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3478
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1342
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 544
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3010
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1188
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2690
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 545
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3640
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3610
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2024
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2951
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1897
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3539
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1760
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2366
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2602
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1164
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3345
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 309
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2049
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2008
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2127
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2766
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 37
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 400
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2182
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1096
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3460
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 809
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 841
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 459
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1274
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3045
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1159
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1892
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 835
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1007
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3161
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2867
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 914
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3265
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2567
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1162
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3041
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2828
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2474
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3083
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1415
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1270
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3103
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 690
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3700
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2234
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2162
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 909
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1244
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3412
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2099
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2236
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2967
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1688
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3378
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2901
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2017
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2706
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3125
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2144
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3485
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 864
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2593
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2166
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 117
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2662
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3914
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2738
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3668
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2309
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 522
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3729
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3386
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 292
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2249
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 215
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 771
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2170
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2971
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1510
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3135
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3927
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3622
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 285
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 355
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 137
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2086
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1922
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3361
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 523
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3025
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1511
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 431
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1546
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2521
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1263
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3246
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2096
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3819
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3006
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2683
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1812
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2896
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2520
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2263
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2682
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 426
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1417
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3702
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1001
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3697
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2807
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3781
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1404
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 624
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3994
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2344
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 462
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3094
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2301
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3809
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3498
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 632
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1869
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3992
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2513
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1181
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1203
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 982
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 483
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3785
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3965
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2837
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 559
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2003
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1671
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2639
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1518
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2874
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 143
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1871
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1043
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1595
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2305
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 936
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1862
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 107
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2197
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3648
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2556
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2102
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1867
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 602
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 778
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 72
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1771
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1492
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2357
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1296
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2615
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2510
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2560
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1667
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3974
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 216
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1352
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 53
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1757
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2739
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1211
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3068
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 235
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 55
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3554
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2704
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1514
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3935
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2579
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1768
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2584
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1286
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 664
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1435
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 850
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1105
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 390
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1947
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3312
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2936
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2583
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1568
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 934
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3311
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3493
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 687
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1845
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 433
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2872
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2891
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 638
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2784
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3659
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 50
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2518
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3450
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2548
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1419
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 921
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3719
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1456
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 200
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3707
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1590
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 458
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3888
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3905
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2466
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 554
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2304
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3530
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1412
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2442
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2882
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3979
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3238
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1325
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 677
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1940
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 616
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3861
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2599
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1977
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 668
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2464
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 962
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 582
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3624
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 732
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2976
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2794
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1533
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1969
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2437
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 138
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1351
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2815
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3002
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2078
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1791
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3435
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2481
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 953
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1049
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3568
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3753
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3976
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3253
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3890
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3582
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 162
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 119
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1003
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3770
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1765
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2964
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3775
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2281
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3734
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2843
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1361
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1409
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 948
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2595
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2793
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1498
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2823
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3354
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2063
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1997
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2377
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3321
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1725
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2237
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1493
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2980
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3884
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1163
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 910
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2833
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2246
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2438
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2537
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 266
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2399
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2495
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3138
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1839
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3228
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 804
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3871
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3534
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 188
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2161
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 168
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 783
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 108
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1739
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2563
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1277
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3993
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1543
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 506
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 257
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 423
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1447
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 79
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2714
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 399
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2457
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1057
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3347
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3507
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2695
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2677
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1367
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2316
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2013
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1870
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2134
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1383
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 637
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3892
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 800
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3561
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3558
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1914
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3341
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2693
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3195
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3777
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 618
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3970
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3856
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2977
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2715
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1893
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2963
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1440
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2061
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3873
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 939
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2255
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3962
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1357
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2598
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1634
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 86
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2423
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3912
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3021
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3602
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3294
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1541
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 230
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2922
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 51
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3031
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1318
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 75
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1462
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 563
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1833
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 854
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1116
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1030
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 340
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3233
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1693
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2655
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3248
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2586
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2920
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3738
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2454
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2705
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1554
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3969
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1809
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3479
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3174
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3343
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1597
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2218
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1659
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 47
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2832
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2029
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1930
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2424
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 797
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 693
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3314
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1735
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2275
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 607
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1646
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3210
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 889
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3529
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3985
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3627
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3455
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1917
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3683
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 338
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 391
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2511
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 635
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2996
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 649
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3225
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3152
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3792
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3085
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 712
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 85
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1578
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1651
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2907
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3183
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3776
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1797
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3143
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2512
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1961
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2500
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1446
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1583
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1801
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 136
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 792
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1031
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 349
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2428
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3796
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1689
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 226
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2333
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 173
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 998
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2597
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2152
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2762
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1402
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 779
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1988
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 675
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3531
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 796
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3908
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1483
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3654
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 681
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 95
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2076
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 745
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3840
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3787
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1853
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3165
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3368
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2717
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2312
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3486
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1089
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1974
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1458
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 814
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1349
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 323
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3305
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3023
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 82
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3786
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3830
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 294
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3123
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 148
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3664
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 744
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3266
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3453
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3429
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1420
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3156
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2608
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2830
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3160
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1506
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1754
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 947
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1844
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2523
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 657
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2607
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1585
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 398
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3397
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3119
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 441
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1901
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2319
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1696
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3853
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 579
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3596
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1477
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2652
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1451
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 192
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1485
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3515
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 90
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 121
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1276
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3231
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3024
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 529
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3258
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1905
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1285
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3428
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 585
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2526
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2468
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2267
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 380
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1542
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3601
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2083
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1268
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1119
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1438
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3523
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3196
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 980
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3998
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 68
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2241
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3499
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2124
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 352
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1910
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2774
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1027
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1430
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2533
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3213
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 418
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 958
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2645
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2603
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2146
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 265
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1822
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 667
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2119
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 259
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3026
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 127
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3127
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2634
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 319
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 599
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2223
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2968
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2741
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1011
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1880
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2459
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2132
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1508
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1476
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3052
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2282
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2698
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2147
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 45
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3737
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3901
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3049
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2759
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3422
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2836
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3407
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 358
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2779
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2028
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 622
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 12
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3186
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 367
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 710
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 373
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2458
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 969
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3406
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 9
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1410
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2441
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 189
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1198
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2594
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1937
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2609
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1130
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2353
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 775
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3699
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1323
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1038
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 332
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1174
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3886
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2411
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1622
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2938
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2699
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1999
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2085
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1432
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2747
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1990
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2986
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 38
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 499
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3299
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3730
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2618
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 329
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3471
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2688
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2658
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 706
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3111
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1868
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 402
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3282
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1971
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2987
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 790
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2940
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3952
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3607
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2371
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2280
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1074
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1887
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1173
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1636
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3283
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3606
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1745
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3303
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 862
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 843
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 223
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2868
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 766
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2254
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1013
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1212
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 77
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1403
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2104
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1500
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3944
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 952
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1101
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2931
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1363
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 630
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 267
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2107
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3542
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3983
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2173
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3133
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2664
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 707
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3910
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 820
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1199
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3741
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1253
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2740
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1851
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 879
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3015
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2889
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3336
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1711
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2206
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 113
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2892
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1460
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3546
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3148
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2531
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3098
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 493
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 555
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1184
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2315
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2272
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2484
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3448
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1393
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3252
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3490
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1399
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2600
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2150
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3502
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1243
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 689
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2565
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 42
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3722
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 713
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2527
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2899
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3385
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 424
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3754
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1299
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1611
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 992
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1189
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2929
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3547
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 895
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 608
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2846
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1141
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 807
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3598
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 71
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2005
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 968
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 503
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2572
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 482
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 930
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 228
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3475
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 478
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 320
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1278
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 453
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 777
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2054
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1330
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 209
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 465
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 241
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 955
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1114
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 231
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2765
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3712
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2810
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3304
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3260
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 300
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1695
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1982
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3084
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2066
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 255
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1152
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1044
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 150
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1102
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3704
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2796
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1364
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1087
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1113
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1259
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1313
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2941
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3325
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1251
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3713
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2781
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1964
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2273
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3728
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3216
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2235
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 640
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3634
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3846
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3351
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1389
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1527
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1459
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3915
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1384
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 886
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 989
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 125
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 583
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1140
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 916
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3398
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2184
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1157
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2082
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2689
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3731
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 558
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3337
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1842
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 794
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 206
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 382
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1557
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3633
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3911
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 859
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2944
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1521
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3169
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 158
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 932
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2257
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1700
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1433
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3416
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 217
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3319
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1293
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3468
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2036
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3575
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1442
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2470
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2398
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3559
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1104
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3716
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2746
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1789
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1106
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 486
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2993
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2421
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3587
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1337
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2217
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 743
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 721
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1830
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 780
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3469
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2303
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1426
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1353
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2296
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 243
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 276
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 747
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1866
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2642
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1166
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3637
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2204
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2189
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 570
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3723
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3136
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3009
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3281
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1850
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 295
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2326
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 315
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3521
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3725
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1468
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 17
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3034
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 782
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3441
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3419
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3949
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 900
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2122
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2831
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3864
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2098
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 436
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2050
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3185
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2110
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2020
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3402
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3007
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3512
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3217
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1335
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 411
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2477
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2596
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 762
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 754
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 994
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3968
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3945
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 83
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3649
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1452
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 270
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1777
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1317
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3249
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2666
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1016
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 908
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2361
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1380
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2553
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2853
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1535
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3447
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 489
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3280
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3439
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3897
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 810
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 700
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 931
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1078
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 183
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 626
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1465
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 159
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 307
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1085
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 240
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2483
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3189
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1779
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1339
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1684
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 548
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2606
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 925
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2727
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2239
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 110
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3019
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3364
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1439
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2345
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 392
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2261
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 920
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1242
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2230
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3947
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3929
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2073
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1888
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2624
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1607
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1449
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3107
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2090
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3059
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3891
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1548
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 56
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1803
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1786
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3583
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 246
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 281
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3414
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1592
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2202
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3348
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3044
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2042
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2819
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1233
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3137
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1748
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 641
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3324
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1175
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3743
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3506
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2156
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1137
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1153
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2866
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3829
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2397
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1942
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2491
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1907
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1396
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2590
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3411
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1496
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1170
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2858
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2159
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3261
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1210
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1481
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 104
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1122
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 333
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2497
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1051
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 836
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3445
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3198
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2726
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1784
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1397
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3482
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 22
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 97
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2408
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2092
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1275
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2448
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2898
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3032
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2538
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2278
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2378
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 195
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 546
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1179
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3836
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3960
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 752
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2644
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 791
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2311
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2080
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3067
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1615
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 348
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1973
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1530
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 802
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3426
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1103
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1984
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 128
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1837
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3966
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2751
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2088
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 405
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1287
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 722
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1478
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1334
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1055
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2554
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2812
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 496
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 78
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1052
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1327
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 634
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3339
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2573
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3409
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 460
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3423
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 933
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1132
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 253
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 884
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1813
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 729
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2105
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 142
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2544
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 708
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1379
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 829
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2148
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 221
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2130
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2519
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3863
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 688
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 615
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2465
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3501
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3948
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 846
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 770
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3691
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1455
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 767
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3851
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2997
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3215
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 23
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2094
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 787
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 406
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3432
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 260
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1192
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2367
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3104
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3413
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2852
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 33
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1618
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2735
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2139
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 821
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1515
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1331
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2509
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3178
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3038
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3573
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1756
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2118
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 179
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1612
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1165
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1586
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 364
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2409
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3011
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1751
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2033
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 67
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1401
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3569
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3118
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1360
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2954
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 222
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3724
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3613
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 923
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1033
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2551
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3733
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3567
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3880
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1945
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3760
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1806
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3459
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1319
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3100
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1883
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2489
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3043
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3878
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 590
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2712
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1807
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3782
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2959
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3862
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2507
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1445
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2081
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2591
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1121
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1694
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3805
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1185
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2532
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 160
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2771
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 970
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2337
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 589
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1683
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2691
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1877
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2439
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 275
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2948
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1778
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1633
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 915
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2589
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3176
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3457
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2906
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1314
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2686
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 991
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 768
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1186
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2834
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3124
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2136
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3451
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2612
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3545
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 130
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1849
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1454
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3577
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3869
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1903
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1972
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1376
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 381
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 236
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1941
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2229
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1864
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3768
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2838
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1385
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 856
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3262
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2194
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3894
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2661
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3772
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1048
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2114
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 388
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2880
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3046
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1956
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2299
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3410
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3177
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1704
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 153
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2058
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1656
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 738
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 324
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1621
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3710
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 697
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3197
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 444
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1536
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 450
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1348
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3073
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3608
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1852
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3766
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 595
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1718
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1408
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3333
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1566
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3841
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 973
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1727
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2016
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1134
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2427
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1965
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 208
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3494
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2669
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3042
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 193
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2718
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3495
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3810
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3940
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3824
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2258
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 776
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3275
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2805
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 291
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 187
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1321
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1547
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1332
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3092
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 442
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3000
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3097
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 703
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 842
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3488
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3516
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1959
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2545
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 823
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1225
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2817
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 723
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 830
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1519
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3690
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1902
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3372
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3524
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1248
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2770
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 661
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2761
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2425
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1288
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2226
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3437
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3484
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2370
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3093
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2638
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2443
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 833
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 289
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2137
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2240
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1280
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1552
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3463
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 463
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3893
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 725
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 396
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2053
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2803
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 674
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 476
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3791
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2113
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2490
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2381
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2323
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1497
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3997
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2814
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1796
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 533
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1218
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3264
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1236
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1950
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3369
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 66
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 126
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1944
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2289
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3589
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2763
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1654
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 639
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3989
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1672
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 840
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1991
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3362
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1258
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2214
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 819
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1151
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3553
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3370
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2947
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 893
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 880
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 631
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3680
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3476
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3514
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1386
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 954
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 410
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 427
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 799
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 940
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3316
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3287
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3750
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2742
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 344
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2601
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3388
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2302
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2369
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1808
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 167
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 944
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 569
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3907
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3420
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2221
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1925
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3255
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1092
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2782
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2849
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 793
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3778
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2631
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 562
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2165
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2710
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1678
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 535
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3876
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3842
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1824
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2251
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2430
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1080
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3747
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2614
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 531
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3108
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 211
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3113
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3088
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1355
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2318
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3898
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3867
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3366
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3245
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 422
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1978
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1284
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 758
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3758
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 550
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1993
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1966
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 202
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 412
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 728
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3973
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 5
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 327
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2032
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1238
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1333
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2046
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3579
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2925
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1504
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1006
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2095
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 181
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2157
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2403
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1613
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3932
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3885
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1470
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1267
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2657
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3986
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 902
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 911
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1577
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1746
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3755
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1661
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3921
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 803
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2238
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 359
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3797
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1714
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2827
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3701
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3389
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1594
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2140
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2675
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3203
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3355
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 163
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 874
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1817
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1008
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1023
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3234
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3503
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 949
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1488
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2387
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2012
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 151
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 374
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3586
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 552
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3931
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2656
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3075
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3173
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3918
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3698
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 310
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1648
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1980
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2955
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1992
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 102
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 512
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2570
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1616
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3815
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3950
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3114
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 2641
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3850
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 511
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3804
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 1147
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 514
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 198
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 312
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 852
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3820
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+chromosome: 3236
+Average Score: 4.197789
+2C-S -S -CT       1    0.188174       0    3
+
+
+GenA took 4119 milli seconds to obtain your parameters

@@ -1,0 +1,18 @@
+#!/bin/sh 
+
+# Run these on a node with GPUs interactive, or create your own submission script based and submit with the arguments below
+genA=../../bin/genA
+
+# look at the manual at ..... for information on these flags and input file or the readme file 
+
+# Example 1: Regular fit
+$genA -i input -p parmfile -r MSE.restart -s MSE.scores -f MSE.frcmod -y MSE.fit -o MSE.log  
+
+# Example 2: Restarting a run by reading the amplitude parameters from MSE.restart 
+$genA -i input -p parmfile -c MSE.restart -r MSE_new.restart -s MSE_new.scores -f MSE_new.frcmod -y MSE_new.fit -o MSE_new.log
+
+# Example 3: Using previous amber parameters [Use the make_genA_restart to make restart files from amber frcmod file] 
+$genA -i input -p parmfile -c MET.ff14SB.restart -r MSE_umet.restart -s MSE_umet.scores -f MSE_umet.frcmod -y MSE_umet.fit -o MSE_umet.log  
+
+# clean directory 
+rm *.restart *.scores *.frcmod *.fit 
