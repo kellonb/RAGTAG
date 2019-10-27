@@ -1,6 +1,6 @@
 #!/bin/bash
 
-genA=/mnt/raidc3/kbelfon/04.programs_and_scripts/genA_kb/GenA_Aug19/genA
+genA=../../bin/genA
 
 #submit the equilibration script
 sbatch << EOF
