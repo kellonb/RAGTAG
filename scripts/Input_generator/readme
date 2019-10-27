@@ -1,0 +1,9 @@
+READ THE MANUAL BEFORE DOING THIS
+
+1) Edit the top_info with the correct info or create one using the info from the manual or readme_details
+2) edit create_list.py with your QM and MM directory
+3) copy the dihedral_info file created two directory up from the run_mmAfterQM.py script or make one from scratch using the manual or readme details 
+(4) edit or create an input file with the appropriate flags like the dihedral number being fitted etc
+
+(5) run the genA input generator
+python create_genA_input.py -i input -at dihedral_info -top top_info 

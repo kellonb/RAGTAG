@@ -1,0 +1,3 @@
+#topology             databasename or moleculename      nconf 
+CNX.ff14SB.CYXc1c2.parm7,            CNXalpha,                 459
+CNX.ff14SB.CYXc1c2.parm7,            CNXopt,                   469
