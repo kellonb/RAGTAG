@@ -14,6 +14,9 @@ make test
 RAGTAG Manual can be found here, read this first. 
 https://docs.google.com/document/d/1VHVWCPeBlzBsUrCb-7jB6FpM4wwmpJuyWXdh-nNtmec/edit 
 
+The python script to create the input file genA_input is in the input generator directory: 
+ scripts/Input_generator/create_genA_input.py
+
 # The input generator for RAGTAG is dependent on pytraj, Ensure you have it install with Amber of you can get it from
  https://amber-md.github.io/pytraj/latest/index.html
 
