@@ -8,6 +8,7 @@
 #include <iomanip>
 #include <vector>
 #include <algorithm>
+#include <iostream>
 
 /* dihedral parameters in AMBER are:barrier (amplitudes), phase and periodicity
 the format for these parameters in AMBER are:

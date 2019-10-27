@@ -161,7 +161,7 @@ __global__ void mateIt(float *Vs, int *ptrs, const float *areas, const float *su
  * @param genomeSize number of genes in a genome
 *******************************************************************************************/
 
-__global__ void mutateIt(float *Vs, int *ptrs, const float *rands, const int pSize, const float pMut, const float max, const int genomeSize, const float *AZP)
+__global__ void mutateIt(float *Vs, int *ptrs, const float *rands, const int pSize, const float pMut, const float max, const int genomeSize)
 {
   /* figure out index */
   int i=blockIdx.x * blockDim.x + threadIdx.x;
@@ -562,10 +562,10 @@ int main(int argc, char *argv[]){
   size_t nRands;
   curandGenerator_t gen;
   float *Vs, *Vs_d, *rands, *rands_d, *tset, *tset_d, *tgts, *tgts_d, *wts, *wts_d, *xx_d;
-  float *AZP_d, *AZP, *scores, *scores_d, *areas, *areas_d;
+  float *scores, *scores_d, *areas, *areas_d;
   int genomeSize, trainingSize, g, totdih, *ptrs_d, *ptrs, N, nConf=0, nDataset=0, *breaks, *breaks_d, nBreaks; 
   int *ptrsT, *ptrsV, *ptrsD, *ptrsT_d, *ptrsV_d, *ptrsD_d, *allFginDs, *allFginDs_d;
-  int *ndihperFg, *nCosperFg, *nCosperFg_d, *nVperFg, *nVperFg_d, *nDihperDs, *nDihperDs_d, *DihFgindx;
+  int *nCosperFg, *nCosperFg_d, *nVperFg, *nVperFg_d, *nDihperDs, *nDihperDs_d, *DihFgindx;
   int save=pSize*keep; //save is number of chromosome we will keep as elitist
 
 /***************************| load data from load.cpp |***********************************
@@ -905,7 +905,7 @@ When rng_type is CURAND_RNG_PSEUDO_DEFAULT, the type chosen is CURAND_RNG_PSEUDO
 #if DEBUG>2
     std::cerr << "Mutate" << std::endl;
 #endif
-    mutateIt <<<nBlocks, BLOCK_SIZE>>> (Vs_d, ptrs_ds[curList]+pSize, rands_d+pSize*3, pSize, pMut, max, genomeSize, AZP_d);
+    mutateIt <<<nBlocks, BLOCK_SIZE>>> (Vs_d, ptrs_ds[curList]+pSize, rands_d+pSize*3, pSize, pMut, max, genomeSize);
     if((error=cudaGetLastError())!=cudaSuccess){fprintf(stderr, "Cuda error: %s (mutate)\n", cudaGetErrorString(error));}
 
 /**************| Step5: Score the individuals to select for the next generation |*******************/
