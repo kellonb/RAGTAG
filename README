@@ -1,24 +1,27 @@
-# to install RAGTAG genA
+This version of RAGTAG runs on the GPU. RAGTAG works on all NVIDIA GPU cards. This project is in WIP status.
+Look out for our publication soon 
+
+# How to install RAGTAG genA
 make install 
 
-# to clean up object files
+# How to clean up object files
 make clean 
 
-# for debugging purpose
-make debug
-
-# run test cases 
+# How to run test cases, run these to ensure RAGTAG is installed properly 
 make test
 
 
 RAGTAG Manual can be found here, read this first. 
 https://docs.google.com/document/d/1VHVWCPeBlzBsUrCb-7jB6FpM4wwmpJuyWXdh-nNtmec/edit 
 
-To run RAGTAG but look at examples in the manual and in the test case directory
-./genA -i genA_input -p parmfile.4 -r CNX_4p.restart -s CNX_4p.scores -f CNX_4p.frcmod -y CNX_4p.fit -o CNX_4p.log
-# to restart your previous run
-./genA -i genA_input -p parmfile.4.1 -c CNX_4p.restart -r CNX_4p.restart1 -s CNX_4p.scores1 -f CNX_4p.frcmod1 -y CNX_4p.fit1 -o CNX_4p.log1
+# The input generator for RAGTAG is dependent on pytraj, Ensure you have it install with Amber of you can get it from
+ https://amber-md.github.io/pytraj/latest/index.html
 
-# the scripts directory have some usefule scripts, Details on those coming soon
+To run RAGTAG (but look at examples in the manual and in the test case directory)
+ ./genA -i genA_input -p parmfile -r molecule.restart -s molecule_4p.scores -f molecule_4p.frcmod -y molecule_4p.fit -o molecule_4p.log
+# to restart your previous run
+./genA -i genA_input -p parmfile.1 -c molecule_4p.restart -r molecule_4p.restart1 -s molecule_4p.scores1 -f molecule_4p.frcmod1 -y molecule_4p.fit1 -o molecule_4p.log1
+
+# the scripts directory has some useful scripts, Details on those are coming soon
 
 
