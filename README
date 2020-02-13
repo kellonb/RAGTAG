@@ -11,8 +11,7 @@ make clean
 make test
 
 
-RAGTAG Manual can be found here, read this first. 
-https://docs.google.com/document/d/1VHVWCPeBlzBsUrCb-7jB6FpM4wwmpJuyWXdh-nNtmec/edit 
+RAGTAG Manual can be found in this directory, read this first. 
 
 The python script to create the input file genA_input is in the input generator directory: 
  scripts/Input_generator/create_genA_input.py
