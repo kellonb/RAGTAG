@@ -1,0 +1,12 @@
+bash run_cpptraj.cluster.sh 
+nohup ../../calcEnergies ../../ALY.ff14SB.MM.parm7 prod.skip100.nc -diel 4r > prod.E &
+mkdir output
+python select_struct.py
+python random_nopick2.py
+python make_traj_multi.py
+bash run_cpptraj.500.sh 
+bash check_chiral.sh
+python plot_500.py 
+python plot_chiral.py
+
+
