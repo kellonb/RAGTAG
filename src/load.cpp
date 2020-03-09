@@ -85,7 +85,7 @@ std::ostream & operator<<(std::ostream &os, const DihCorrection &dc) {
 }
 
 /* load function */
-void load(std::istream & in, float **tset, int **ptrsV, int **ptrsT, int **ptrsD, int **allFgsinDsi, int **nDperD, float **tgts, float **wts, int *nConfs, int *nDataset, int **brks, int *nBrks, int *trainingSize, int *genomeSize, std::map<std::string,DihCorrection> & correctionMap, int **nVperFgi, int **nCosperFgperDs, int nCos, int nFg, int nDih, int *totdih, int **DihFgindx)
+void load(std::istream & in, float **tset, int **ptrsV, int **ptrsT, int **ptrsD, int **allFgsinDsi, int **nDperD, float **tgts, float **wts, int *nConfs, int *nDataset, int **brks, int *nBrks, int *trainingSize, int *genomeSize, std::map<std::string,DihCorrection> & correctionMap, int **nVperFgi, int **nCosperFgperDs, int nCos, int nFg, int nDih, int *totdih, int **DihFgindx, float **EMM01)
 {
   
   int ch;
@@ -198,6 +198,8 @@ void load(std::istream & in, float **tset, int **ptrsV, int **ptrsT, int **ptrsD
   std::vector<int> allFgsinDs; //This vector holds all the Fitting groups index in each dataset
   std::vector<std::vector<int> > Fitgrpindx;  // this is a 2D array that holds the index for the fitting grps 
   std::vector<int> nFgperDs; //this will hold the total type of fitting group in each dataset 
+
+  std::vector<float> EMM0;  // to hold the mm0 energies
   *nConfs=0;  // will enventuall hold the number of conformations  
   *nDataset=0;
   std::string line;
@@ -267,6 +269,7 @@ void load(std::istream & in, float **tset, int **ptrsV, int **ptrsT, int **ptrsD
     
     /* flag is set to one at the begining of each dataset and set to 0 after the first conformation (row) in a dataset is read */
     int flag = 1;
+
 
     while(std::getline(in,line)&&line[0]!='/'){  // Loop through the datasets
       input.clear();
@@ -351,10 +354,10 @@ void load(std::istream & in, float **tset, int **ptrsV, int **ptrsT, int **ptrsD
           int n=(*it)->getPer()[pt]; // Get n value 
 
 #if LOAD_DEBUG
-          //std::cout << "col: (n value) " << (*it)->getCorrs()[n] << " " << std::endl;
-          //std::cout << "fitGroup for label " << label << ": " << (*it)->getFitgroup()[0] << "  " << std::endl;
+          std::cout << "col: (n value) " << (*it)->getCorrs()[n] << " " << std::endl;
+          std::cout << "fitGroup for label " << label << ": " << (*it)->getFitgroup()[0] << "  " << std::endl;
 
-          //std::cout << "dih= " << dih << std::endl; 
+          std::cout << "dih= " << dih << std::endl; 
           std::cout << "n[col] : " << n << "[" << (*it)->getCorrs()[n] << "]+=" << cos(dih*(float)n) << std::endl;
 #endif 
           if (pt == 0) { //only want the largest ns to get the col index into tset
@@ -394,6 +397,7 @@ void load(std::istream & in, float **tset, int **ptrsV, int **ptrsT, int **ptrsD
       double E_QM,E_MM,dE;
       /* input E_QM and E_MM, from the inputstream take column E (QM energies) and E0 (MMenergies) */
       input >> E_QM >> E_MM;
+      EMM0.push_back(E_MM);
       //std::cout << E_QM << E_MM << std::endl;
       
       /* the if statement evaluate the first conf after the break, else statement everything else */
@@ -475,7 +479,7 @@ void load(std::istream & in, float **tset, int **ptrsV, int **ptrsT, int **ptrsD
   *nDperD=(int *)malloc(sizeof(**nDperD)* *nDataset+1);
   *DihFgindx=(int *)malloc(sizeof(**DihFgindx)*nDih);
   *nVperFgi=(int *)malloc(sizeof(**nVperFgi)*nFg);
-
+  *EMM01=(float *)malloc(sizeof(**EMM01)* *nConfs);
   /* Get the tset (nConfs * trainingSize) and tgts (nConfs)  */  
   for(int i=0;i<*nConfs;i++){
     (*tgts)[i]=data[i][*trainingSize];
@@ -489,6 +493,12 @@ void load(std::istream & in, float **tset, int **ptrsV, int **ptrsT, int **ptrsD
     std::cout << "\n" << std::endl;
   }
   
+  for(int i=0;i<*nConfs;i++){
+    (*EMM01)[i]=EMM0[i];
+    std::cout << (*EMM01)[i] << " ";
+  }
+  std::cout << "\n" << std::endl;
+
   /* Populate the fitting group index for printing out frdcmod etd*/
   std::cout << "Fitting group index for dihedrals: " << std::endl;
   for(int i=0;i<nDih;i++){

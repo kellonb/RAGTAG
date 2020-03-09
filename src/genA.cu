@@ -2,7 +2,6 @@
                                Genetic algorithm optimizer                               *
                                       genA.cu                                            *
 Runs iterations of genetic algoirthm to optimize molecular mechanics dihedral parameters * 
-                                                                                         *
               @author James Maier, Kellon Belfon, Chuan Tian                             *
               @lab Carlos Simmerling lab, Stony Brook University                         *
               @version 3.0 2019 Aug                                                      *
@@ -35,14 +34,12 @@ const int BLOCK_SIZE=256;
 
 #define HANDLE_ERROR(x) x;
 
-
 /*****************************************************************************************
 *                  Defining the six pivotal functions for the genetic algorithm          *
 *  (1) mateIt, (2) mutateIt, (3) scoreIt, (4) calcAreas, (5) moveEm, (6) getSumAreas     *
 * note: getSumAreas uses two other functions sumEm and sumEmIndex                        *
-*****************************************************************************************/
-
-/*****************************************************************************************
+******************************************************************************************
+******************************************************************************************
 *                                | function1: mateIt |                                   *
 *                                                                                        *
 * @purpose creates offspring from a population, generating crossovers according to pCross*
@@ -65,14 +62,14 @@ __global__ void mateIt(float *Vs, int *ptrs, const float *areas, const float *su
      threadIdx is the index for threads */
   int i=blockIdx.x * blockDim.x + threadIdx.x;
 
-  /* random numbers for first parent, second parent, crossover */
+  /* random numbers for crossover */
   int randi=i*3;
 
   /* multiply i by 2, as we will have 2 parents and 2 offspring using a left bitwise 
   (<<) by 1*/
   i<<=1;
 
-  /* if we're in the population (sometimes warps may go past) */ 
+  /* if we're in the population (sometimes warps may go past, don't waste threads) */ 
   if (i<pSize) {
     int parent[2];
     int j;
@@ -80,24 +77,20 @@ __global__ void mateIt(float *Vs, int *ptrs, const float *areas, const float *su
     parent[0]=parent[1]=-1;
   /* find parent where cumulative (cum) area (A) is less than random target (tgt) area
     selection of parents depends on cumulative probability being less than the 
-    random probabilities (random numbers). rands[] is a function that returns a 
-    pseudo-random number (pseudo random number generator)
-    The pseudo random numbers range from 0 to RAND_MAX(default is 32767) 
+    random probabilities (random numbers). 
     The random probabilities (tgtA) is random numbers multiply by sum of all the 
     individual probabilities*/
    
     float cumA=0.0f, tgtA=rands[randi++]* *sumArea; //tgtA random number from 0 to the sumArea
     while(cumA<=tgtA){
       ++parent[0];
-      cumA+=areas[ptrs[parent[0]]/genomeSize]; // areas is e^-(scorei/score0)
+      cumA+=areas[ptrs[parent[0]]/genomeSize]; // areas (probabilities) is based on mWo option 
       /* rands[randi-1] is the index back to zero since it is the first set of parents */
     }
-
 #if DEBUG>2
     printf("rands[%d] ; %f ; %f=%f * %f\n",randi, cumA, tgtA, rands[randi-1], *sumArea);
     printf("first parent\n");
 #endif
-
     /* This substract 1st parent area from sum of area  */
     cumA=0.0f; tgtA=rands[randi++]* (*sumArea-areas[ptrs[parent[0]]/genomeSize]); 
     while (cumA<=tgtA){
@@ -110,7 +103,7 @@ __global__ void mateIt(float *Vs, int *ptrs, const float *areas, const float *su
     printf("Make offspring %d from %d and %d (%f=%f*(%f-%f)) %d\n", i, parent[0], 
        parent[1], tgtA, rands[randi-1], *sumArea, areas[ptrs[parent[0]]/genomeSize], randi);
 #endif
-    /* add offset of pSize to i because it is a child (next population) */
+    /* add offset of pSize to i because it is an offspring (next population) */
     i+=pSize;
     /* use ptrs to get indices into Vs */
     int i0=ptrs[i], i1=ptrs[i+1];
@@ -143,8 +136,6 @@ __global__ void mateIt(float *Vs, int *ptrs, const float *areas, const float *su
   } // end of if i<pSize loop 
 }
 
-
-
 /*****************************************************************************************
                                 | function 2: mutateIt |
 
@@ -166,19 +157,18 @@ __global__ void mutateIt(float *Vs, int *ptrs, const float *rands, const int pSi
   /* figure out index */
   int i=blockIdx.x * blockDim.x + threadIdx.x;
   if(i<pSize){
-    
     // get index into random number array
     int r=i*genomeSize;
+    // bounds for the begnining of the chromosome of Vs
     i=ptrs[i];
+    // bounds for the end of the chromsome of Vs
     int j=i+genomeSize;
     // want random numbers from [-max, max). will subtract max later
     float scale=2.0f*max/pMut;
-    // used to make Vs equal 
     while(i<j){
-      // Mutation is done here  
+      // if random number is less than the probability of mutation then 
       if(rands[r]<pMut){
-          // if Vs equal to zero (if amplitude is zero, leave it as zero), so no mutation on these Vs
-          // mutate the amplitude(Vs) by adding perturbation based on max, random number and pMut
+         // mutate the amplitude(Vs) by adding perturbation based on max, random number and pMut
         Vs[i]+=rands[r]*scale-max;
        }
        ++i;
@@ -314,11 +304,23 @@ __global__ void scoreIt(float *scores, float *areas, const float *Vs, const int 
 * @param genomeSize number of genes in a genome                                                   *
 **************************************************************************************************/
 
-__global__ void calcAreas(float *scores, float *areas, const int *ptrs, const int pSize, const int genomeSize) {
+__global__ void calcAreas(float *scores, float *areas, const int *ptrs, const int pSize, const int genomeSize, const int weight_flag, float temperature) {
   int i=blockIdx.x * blockDim.x + threadIdx.x;
-  //if((i<<1)<(pSize-1)*pSize){
+  float b_k = 0.001987204; // kcal/mol/K boltzmann constant
+  float kt = b_k * temperature; // K 
   if(i<pSize){
-    areas[ptrs[i]/genomeSize]=__expf(-scores[i]/scores[0]);
+    // if the weight flag is 1 then use a heavy weight 
+    if (weight_flag==1){
+      areas[ptrs[i]/genomeSize]=__expf(-scores[i]/scores[0]);
+    }
+    // use 1/1+si
+    else if (weight_flag==2){
+      areas[ptrs[i]/genomeSize]= 1/(1 + scores[i]);
+    } 
+    // use same as 1 but with kt instead so you can adjust the probabilities
+    else if (weight_flag==3){
+      areas[ptrs[i]/genomeSize]=__expf(-scores[i]/kt);
+    }  
   }
 }
 /*****************************************************************************************
@@ -332,7 +334,6 @@ __global__ void calcAreas(float *scores, float *areas, const int *ptrs, const in
 * @param oldI pointer to old int array
 * @param N number of floats/ints to copy
 *****************************************************************************************/
-
 __global__ void moveEm(float * newF, int *newI, float *oldF, int *oldI, int N) {
   int i=blockIdx.x * blockDim.x + threadIdx.x;
   if(i<N){
@@ -404,27 +405,13 @@ float *getSumAreas(float *areas_d, int *ptrs_d, int pSize, float *temp_d, const 
   int dim=pSize; //Set dim to pSize
   int offset=0;
 
-/* The triple chevron below describes an execution configuration the first
-    argument(((dim>>1)+BLOCK_SIZE-1)/BLOCK_SIZE) in the execution configuration specifies 
-    the  number of thread blocks in the grid, and the second specifies (BLOCK_SIZE) 
-     the number of threads in a thread block */
-
   // return an array of sums (temp_d), sum up the probabilities in areas_d array
   sumEmIndex <<<((dim>>1)+BLOCK_SIZE-1)/BLOCK_SIZE, BLOCK_SIZE>>> (temp_d, areas_d, dim, ptrs_d, genomeSize);
-
-#if DEBUG>1
-  std::cout << std::endl;
-#endif
-
   pSize >>= 1;  
   while((dim>>=1)>1){  // while pSize/2 is greater than 1: Keep dividing (1/2 psize) by 2  
     offset^=pSize;  //bitwise XOR offest is 1/2 pSize then 0, then 1/2 pSize, then 0...
     // doing this switch the source to be (temp+pSize/2) then the source changes to (temp_d+0), then back and forth
     sumEm <<<((dim>>1)+BLOCK_SIZE-1)/BLOCK_SIZE, BLOCK_SIZE>>> (temp_d+offset, temp_d+(offset^pSize), dim);
-
-#if DEBUG>1
-  std::cout << std::endl;
-#endif
   }
   return temp_d+offset;
 }
@@ -479,19 +466,18 @@ a break seperate conformations that are different database
                                   [ O    O ]
                                   [    b ' ]
                                   [  ----- ]
-contact: kellonbelfon@gmail.com with genA title for help
+contact: kellonbelfon@gmail.com with RAGTAG title for help
 *****************************************************************************************/
 
 int main(int argc, char *argv[]){
 
   /* start the timer */
   auto t1=std::chrono::high_resolution_clock::now();
-
   /*specify the string name of the savefile, scorefile, loadfile etc */
   std::string saveFile, loadFile, scoreFile, logFile, frcmodFile, inputFile, fitFile;
   /* genetic algorithm parameters initiated */
-  int pSize, nGen, rseed, peng, ncp, nCos, nChrom, nDih, nFg;
-  float pMut, max, pCross, keep;
+  int pSize, nGen, rseed, peng, ncp, nCos, nChrom, nDih, nFg, mWo;
+  float pMut, max, pCross, keep, tempe;
   /* getting the filenames from the commands -r, -c, -s, -o, -f -y -a */
   for (int i=1;i<argc;i++){
     if(i+1<argc){
@@ -504,7 +490,6 @@ int main(int argc, char *argv[]){
       else if(argv[i][0]=='-'&&argv[i][1]=='y')fitFile=argv[++i]; // file with and idea of how your target energy change
     }
   }
-
   /* open the output file which is the log file */
   std::ofstream logfile;
   logfile.open (logFile.c_str(), ios::out);
@@ -518,17 +503,24 @@ int main(int argc, char *argv[]){
     if(i+1<argc){
       if(argv[i][0]=='-'&&argv[i][1]=='p'){
       ConfigFile cfg(argv[++i]); //file that has the genetic algorithm parameters
-  
-      // check if keys exixt
+      // check if keys exixt and set a message to the user that we are using the default 
       if (!(cfg.keyExists("pSize"))) std::cout << "pSize was not specified, using default of 2000\n";  
       if (!(cfg.keyExists("nGen"))) std::cout << "nGen was not specified, using default of 1000\n";  
-      //TODO:do for all keys above 
+      if (!(cfg.keyExists("pMut"))) std::cout << "pMut was not specified, using default of 0.01\n";  
+      if (!(cfg.keyExists("max"))) std::cout << "max was not specified, using default of 0.5\n";  
+      if (!(cfg.keyExists("pCross"))) std::cout << "pCross was not specified, using default of 0.8\n";  
+      if (!(cfg.keyExists("peng"))) std::cout << "peng was not specified, using default of 10\n";  
+      if (!(cfg.keyExists("ncp"))) std::cout << "ncp was not specified, using default of 2\n";  
+      if (!(cfg.keyExists("keep"))) std::cout << "keep was not specified, using default of 0.2\n";  
+      if (!(cfg.keyExists("nDih"))) std::cout << "nDih was not specified, using default of 1\n";  
+      if (!(cfg.keyExists("nFg"))) std::cout << "nFg was not specified, using default of 1\n";  
+      if (!(cfg.keyExists("mWo"))) std::cout << "mWo was not specified, using default of 1\n";  
       // Retreive the value of keys 
       pSize = cfg.getValueOfKey<int>("pSize", 2000);
       logfile << "Population Size (pSize): " << pSize << "\n\n";
       nGen = cfg.getValueOfKey<int>("nGen", 1000);
       logfile << "Number of Generations (nGen): " << nGen << "\n\n";
-      pMut = cfg.getValueOfKey<float>("pMut", 1);
+      pMut = cfg.getValueOfKey<float>("pMut", 0.01);
       logfile << "Probability of Mutations (pMut): " << pMut << "\n\n";
       max = cfg.getValueOfKey<float>("max", 0.5);
       logfile << "Maximal permissible mutation (max): " << max << "\n\n";
@@ -536,21 +528,27 @@ int main(int argc, char *argv[]){
       logfile << "Probability of crossover (pCross): " << pCross << "\n\n";
       rseed = cfg.getValueOfKey<int>("rseed", 314245);
       logfile << "Random seed (rseed): " << rseed << "\n\n";
-      peng  = cfg.getValueOfKey<int>("peng", 5);
+      peng  = cfg.getValueOfKey<int>("peng", 10);
       logfile << "Print scores every  " << peng << "generations (peng)\n\n";
-      ncp  = cfg.getValueOfKey<int>("ncp", 1);
+      ncp  = cfg.getValueOfKey<int>("ncp", 2);
       logfile << "Print scores of only " << ncp << " chromosomes every peng \n\n";
       nCos = cfg.getValueOfKey<int>("nCos", 4);
       logfile << "Periodicity (nCos): " << nCos << "\n\n";
-      keep = cfg.getValueOfKey<float>("keep", 0.1);
+      keep = cfg.getValueOfKey<float>("keep", 0.2);
       logfile << "We will use " << keep << " for the elitist regime\n\n"; 
       nDih = cfg.getValueOfKey<int>("nDih", 1);
       logfile << "Number of dihedral(s) (nDih): " << nDih << "\n\n";
       nFg = cfg.getValueOfKey<int>("nFg", 1);
       logfile << "Number of Fitting groups (nFg): " << nFg << "\n\n";
- 
-      if(!loadFile.empty()) {
-        nChrom = cfg.getValueOfKey<int>("nChrom", 1);
+      mWo = cfg.getValueOfKey<int>("mWo", 1);
+      logfile << "Mating weight option flag " << mWo << "\n\n";
+      // it the mating weight option is 3 then read temperature 
+      if (mWo==3) {
+         tempe = cfg.getValueOfKey<int>("tempe", 298.0);
+         logfile << "Temperature (K)  " << tempe << "\n\n";
+      }
+       if(!loadFile.empty()) {
+        nChrom = cfg.getValueOfKey<int>("nChrom", 100);
         logfile << "Number of chromosome reported is : " << nChrom << "\n\n";
         }
       }
@@ -562,7 +560,7 @@ int main(int argc, char *argv[]){
   size_t nRands;
   curandGenerator_t gen;
   float *Vs, *Vs_d, *rands, *rands_d, *tset, *tset_d, *tgts, *tgts_d, *wts, *wts_d, *xx_d;
-  float *scores, *scores_d, *areas, *areas_d;
+  float *scores, *scores_d, *areas, *areas_d, *EMM0;
   int genomeSize, trainingSize, g, totdih, *ptrs_d, *ptrs, N, nConf=0, nDataset=0, *breaks, *breaks_d, nBreaks; 
   int *ptrsT, *ptrsV, *ptrsD, *ptrsT_d, *ptrsV_d, *ptrsD_d, *allFginDs, *allFginDs_d;
   int *nCosperFg, *nCosperFg_d, *nVperFg, *nVperFg_d, *nDihperDs, *nDihperDs_d, *DihFgindx;
@@ -581,11 +579,9 @@ int main(int argc, char *argv[]){
   inputfile.open (inputFile.c_str(), std::ios::in);
  
 /* load in arrays generated from load.cpp, check it out for further comments */
-  //load(inputfile, &tset, &tgts, &wts, &nConf, &breaks, &nBreaks, &genomeSize, 
   load(inputfile, &tset, &ptrsV, &ptrsT, &ptrsD, &allFginDs, &nDihperDs, &tgts, &wts, &nConf, &nDataset, &breaks, &nBreaks, &trainingSize, &genomeSize, 
-       correctionMap, &nVperFg, &nCosperFg, nCos, nFg, nDih, &totdih, &DihFgindx);
+       correctionMap, &nVperFg, &nCosperFg, nCos, nFg, nDih, &totdih, &DihFgindx, &EMM0);
   logfile << "Input file loaded ('_')" << "\n\n";
-
 /****************************************************************************************/
 
 /*************************| memory allocation |*******************************************
@@ -604,8 +600,8 @@ int main(int argc, char *argv[]){
   std::cerr << "first cudaMalloc, " << nBreaks << " breaks" << std::endl;
 #endif
 
+  // memory allocation onf the GPU
   cudaMalloc(&nCosperFg_d, nFg*sizeof(int));
-  
   cudaMalloc(&ptrsV_d, nFg*sizeof(int));
   cudaMalloc(&ptrsT_d, nConf*trainingSize*sizeof(int));
   cudaMalloc(&ptrsD_d, (nDataset+1)*sizeof(int));
@@ -666,18 +662,10 @@ so 20 conf will give tgts of 20 (nconf) * 12 (# of dih * periodicity) = 120
   nRands=(3+genomeSize)*pSize;
   int nBlocks=(pSize+BLOCK_SIZE-1)/BLOCK_SIZE;
 
-#ifdef DEBUG
-  std::cerr << nRands << "nRands\n";
-  std::cerr << nBlocks << " blocks\n";
-#endif
-
 /*******************************| initializing host and device variables|************************
 *         N (bitwise operation below) is the pSize (1st input) multiply by 2;                   *
 *       initiating the chromosomes  which have the solns                                        *
 ************************************************************************************************/
-#if DEBUG
-  printf("Allocate memory\n");
-#endif
 
   rands=(float *)malloc(nRands*sizeof(float));
   N=(pSize<<1);
@@ -710,12 +698,6 @@ so 20 conf will give tgts of 20 (nconf) * 12 (# of dih * periodicity) = 120
     if((error=cudaGetLastError())!=cudaSuccess){fprintf(stderr, "Cuda error: (Memcpy ptrs_d) %s\n", cudaGetErrorString(error));}
   int curList=0;
 
-#if 0
-  HANDLE_ERROR(cudaMalloc((void **)&scores_d, N*sizeof(float)));
-
-  HANDLE_ERROR(cudaMalloc((void **)&xx_d, nOffspring*nConf*sizeof(float)));
-#endif
-
 /* thrust is a c++ template library for CUDA similar to STL it have two containers: 
        thrust::host_vector<type> and thrust::device_vector<type>
   The containers make common operations such as cudaMalloc, cudaFree, cudaMemcpy, more concise
@@ -733,10 +715,6 @@ so 20 conf will give tgts of 20 (nconf) * 12 (# of dih * periodicity) = 120
 
 
 /**************************| Create a random generator |********************************************
-* curandCreateGenerator takes two parameters: pointer to generator (*gen), type of generator       *
-Once created,random number generators can be defined using the general options seed, offset,& order*
-When rng_type is CURAND_RNG_PSEUDO_DEFAULT, the type chosen is CURAND_RNG_PSEUDO_XORWOW            *
-*__________________________________________________________________________________________________*
 *curandSetPseudoRandomGeneratorSeed takes two parameters (1) the generator (gen) & (2) seed value  *
 * seed value # is used to initialize the generator and control the set of random numbers;          *
 * same seed will the give same set of random numbers of the psuedorandom generator                 *
@@ -752,23 +730,12 @@ When rng_type is CURAND_RNG_PSEUDO_DEFAULT, the type chosen is CURAND_RNG_PSEUDO
 * Results are 32-bit floating point values with mean and standard deviation.                       * 
 ***************************************************************************************************/
 
-#if DEBUG
-  printf("Create random generator\n");
-#endif
-
   // create the generator name gen
   curandCreateGenerator(&gen, CURAND_RNG_PSEUDO_DEFAULT);
-
-#if DEBUG
-  printf("Seed random generator\n");
-#endif
-  // initiate the generator with the random seed (rseed)
+  // initiate the generator with the random seed (rseed) for natural distribution of random numbers 
   curandSetPseudoRandomGeneratorSeed(gen, rseed);
     if((error=cudaGetLastError())!=cudaSuccess){fprintf(stderr, "Cuda error: %s (seed)\n", cudaGetErrorString(error));}
-#if DEBUG
-   std::cerr << "GenerateNormal" << std::endl;
-#endif
-  // Vs_d is the amplitudes which is random numbers
+  // Vs_d is the amplitudes which is random numbers but can be overwritten with preloaded Vs
   curandGenerateNormal(gen, Vs_d, N*genomeSize, 0, 1);
     if((error=cudaGetLastError())!=cudaSuccess){fprintf(stderr, "Cuda error: %s (normal)\n", cudaGetErrorString(error));}
 
@@ -795,8 +762,8 @@ When rng_type is CURAND_RNG_PSEUDO_DEFAULT, the type chosen is CURAND_RNG_PSEUDO
       }
     }
     // print the two Vs from the first two chromosomes, to ensure your Vs were loaded. 
-    logfile << "Here is your loaded Vs(amplitudes) for first two chromosomes: \n\n" << std::endl;
-    for(int i=0;i<2;i++){
+    logfile << "Here is your loaded Vs(amplitudes) for first three chromosomes: \n\n" << std::endl;
+    for(int i=0;i<3;i++){
       for(int j=0;j<genomeSize;j++){
         logfile <<  Vs[ptrs[i]+j] << " ";  
       }
@@ -824,36 +791,32 @@ When rng_type is CURAND_RNG_PSEUDO_DEFAULT, the type chosen is CURAND_RNG_PSEUDO
     std::cout <<  Vs[ptrs[i]] << " " << Vs[ptrs[i]+1] << " " << Vs[ptrs[i]+2] << std::endl;  
   }    
 #endif
-  
  
 /***************************| score of the first set of chromosomes |*******************************
 * Here we score the two arrays of parents with solution parameters in the initial population       * 
-*****************************************nm  *******************************************************/
-#if DEBUG
-    std::cerr << "1stscore" << std::endl;
-#endif
-
-    /* lauch first kernel to score the initial set of chromsomes (Vs_d) and output scores in scores_ds
-      betweem the triple chervon is called the execution configuration that takes two parts
-      1st part takes the number of thread blocks and the second part take the number of threads in a block */
-    scoreIt <<<(N+BLOCK_SIZE-1)/BLOCK_SIZE, BLOCK_SIZE>>> (scores_ds[curList], areas_d, Vs_d, ptrs_ds[curList], ptrsV_d, ptrsT_d, ptrsD_d, allFginDs_d, nVperFg_d, tset_d, tgts_d, wts_d, breaks_d, nConf, pSize, trainingSize, genomeSize, nFg, nCosperFg_d, xx_d);
-    /* score of chromosomes out of psize since we initiated 2 times psize */
-    scoreIt <<<(N+BLOCK_SIZE-1)/BLOCK_SIZE, BLOCK_SIZE>>> (scores_ds[curList]+pSize, areas_d, Vs_d, ptrs_ds[curList]+pSize, ptrsV_d, ptrsT_d, ptrsD_d, allFginDs_d, nVperFg_d, tset_d, tgts_d, wts_d, breaks_d, nConf, pSize, trainingSize, genomeSize, nFg, nCosperFg_d, xx_d);
+***************************************** *******************************************************/
+    // lauch first kernel to score the initial set of chromsomes (Vs_d) and output scores in scores_ds
+    scoreIt <<<(N+BLOCK_SIZE-1)/BLOCK_SIZE, BLOCK_SIZE>>> (scores_ds[curList], areas_d, Vs_d, ptrs_ds[curList], 
+                 ptrsV_d, ptrsT_d, ptrsD_d, allFginDs_d, nVperFg_d, tset_d, tgts_d, wts_d, breaks_d, 
+                 nConf, pSize, trainingSize, genomeSize, nFg, nCosperFg_d, xx_d);
+    // score of chromosomes outside of psize since we initiated 2 times psize
+    scoreIt <<<(N+BLOCK_SIZE-1)/BLOCK_SIZE, BLOCK_SIZE>>> (scores_ds[curList]+pSize, areas_d, Vs_d, ptrs_ds[curList]+pSize, 
+                 ptrsV_d, ptrsT_d, ptrsD_d, allFginDs_d, nVperFg_d, tset_d, tgts_d, wts_d, breaks_d, 
+                 nConf, pSize, trainingSize, genomeSize, nFg, nCosperFg_d, xx_d);
     if((error=cudaGetLastError())!=cudaSuccess){fprintf(stderr, "Cuda error: %s (1stscore)\n", cudaGetErrorString(error));}
-
-#if DEBUG
-    std::cerr << "1stsort" << std::endl;
-#endif
-
+    // print the initial scores based on ncp as Initial, doing this before sorting so as to score the loaded Vs parameters 
+    cudaMemcpy(scores, scores_ds[curList], sizeof(*scores)*ncp, cudaMemcpyDeviceToHost);
+    for(int m=0;m<ncp;m++){
+      scorefile << std::setw(6) << "Initial" << std::setw(14) << m << std::setw(18) << scores[m]/nDataset << "\n";
+    }
     /* sort the scores from each chromosome of the initial population */
     thrust::sort_by_key(thrust::device_pointer_cast(scores_ds[curList]), thrust::device_pointer_cast(scores_ds[curList]+N), thrust::device_pointer_cast(ptrs_ds[curList]));
     if((error=cudaGetLastError())!=cudaSuccess){fprintf(stderr, "Cuda error: %s (1stsort)\n", cudaGetErrorString(error));}
-
-    // print the initial scores based on ncp as -1 
+    // print the initial scores based on ncp as -1, doing this after  sorting so we can see how good the best ones are  
     cudaMemcpy(scores, scores_ds[curList], sizeof(*scores)*ncp, cudaMemcpyDeviceToHost);
     for(int m=0;m<ncp;m++){
-      scorefile << std::setw(6) << "-1" << std::setw(14) << m << std::setw(18) << scores[m]/nDataset << "\n";
-      }
+      scorefile << std::setw(6) << "Init_after_sort" << std::setw(14) << m << std::setw(18) << scores[m]/nDataset << "\n";
+    }
 
 #if DEBUG>2
     cudaMemcpy(scores, scores_ds[curList], sizeof(*scores)*N, cudaMemcpyDeviceToHost);
@@ -879,84 +842,49 @@ When rng_type is CURAND_RNG_PSEUDO_DEFAULT, the type chosen is CURAND_RNG_PSEUDO
 
   /* for loop for the generation */
   for(g=0;g<nGen;g++){
-  
-/*************************| Step1: Generate random numbers |****************************************/
-#if DEBUG>1
-  printf("Generate random numbers\n");
-  printf(" %d",g);fflush(stdout);
-#endif
     // create an array of random numbers (rands_d) used for mutations and crossover where the number of random #s is nRands 
     curandGenerateUniform(gen, rands_d, nRands);
     if((error=cudaGetLastError())!=cudaSuccess){fprintf(stderr, "Cuda error: (GenerateUniform)%s\n", cudaGetErrorString(error));}
 
-/***| Step2: calculate the probabilities (areas) each individual (chromosome) has of mating |******/
-#if DEBUG>2
-    std::cerr << "Mate" << std::endl;
-#endif
-    calcAreas <<<nBlocks, BLOCK_SIZE>>> (scores_ds[curList], areas_d, ptrs_d, pSize, genomeSize);
+    // Step2: calculate the probabilities (areas) each individual (chromosome) has of mating 
+    calcAreas <<<nBlocks, BLOCK_SIZE>>> (scores_ds[curList], areas_d, ptrs_d, pSize, genomeSize, mWo, tempe);
 
-/***| Step3:  mate the individuals (chromosomes,Parent[0],[1]) selected for the next generation |***/
+    // Step3:  mate the individuals (chromosomes,Parent[0],[1]) selected for the next generation 
     mateIt <<<nBlocks, BLOCK_SIZE>>> (Vs_d, ptrs_ds[curList], areas_d, 
-  getSumAreas(areas_d, ptrs_ds[curList], pSize, areas_d+N, genomeSize),
- rands_d, pCross, pSize, genomeSize);
+          getSumAreas(areas_d, ptrs_ds[curList], pSize, areas_d+N, genomeSize),
+          rands_d, pCross, pSize, genomeSize);
     if((error=cudaGetLastError())!=cudaSuccess){fprintf(stderr, "Cuda error: %s (mate)\n", cudaGetErrorString(error));}
 
-/*****************| Step4: mutate individuals generated after mating |*****************************/
-#if DEBUG>2
-    std::cerr << "Mutate" << std::endl;
-#endif
+    //  Step4: mutate individuals generated after mating 
     mutateIt <<<nBlocks, BLOCK_SIZE>>> (Vs_d, ptrs_ds[curList]+pSize, rands_d+pSize*3, pSize, pMut, max, genomeSize);
     if((error=cudaGetLastError())!=cudaSuccess){fprintf(stderr, "Cuda error: %s (mutate)\n", cudaGetErrorString(error));}
 
-/**************| Step5: Score the individuals to select for the next generation |*******************/
-#if DEBUG>2
-    std::cerr << "Score" << std::endl;
-#endif
-    scoreIt <<<nBlocks, BLOCK_SIZE>>> (scores_ds[curList]+pSize, areas_d, Vs_d, ptrs_ds[curList]+pSize, ptrsV_d, ptrsT_d, ptrsD_d, allFginDs_d, nVperFg_d, tset_d, tgts_d, wts_d, breaks_d, nConf, pSize, trainingSize, genomeSize, nFg, nCosperFg_d, xx_d);
+    // Step5: Score the individuals to select for the next generation 
+    scoreIt <<<nBlocks, BLOCK_SIZE>>> (scores_ds[curList]+pSize, areas_d, Vs_d, ptrs_ds[curList]+pSize, 
+            ptrsV_d, ptrsT_d, ptrsD_d, allFginDs_d, nVperFg_d, tset_d, tgts_d, wts_d, breaks_d, 
+            nConf, pSize, trainingSize, genomeSize, nFg, nCosperFg_d, xx_d);
     if((error=cudaGetLastError())!=cudaSuccess){fprintf(stderr, "Cuda error: %s (score)\n", cudaGetErrorString(error));}
 
-#if DEBUG>2
-    //std::cerr << "Display em:\n\tCopy scores" << std::endl;
-    cudaMemcpy(scores, scores_ds[curList], sizeof(*scores)*N, cudaMemcpyDeviceToHost);
-    if((error=cudaGetLastError())!=cudaSuccess){fprintf(stderr, "Cuda error: %s\n", cudaGetErrorString(error));}
-    //std::cerr << "\tCopy Vs" << std::endl;
-    cudaMemcpy(Vs, Vs_d, sizeof(*Vs)*N*genomeSize, cudaMemcpyDeviceToHost);
-    if((error=cudaGetLastError())!=cudaSuccess){fprintf(stderr, "Cuda error: %s\n", cudaGetErrorString(error));}
-    //std::cerr << "\tCopy ptrs" << std::endl;
-    cudaMemcpy(ptrs, ptrs_ds[curList], sizeof(*ptrs)*N, cudaMemcpyDeviceToHost);
-    if((error=cudaGetLastError())!=cudaSuccess){fprintf(stderr, "Cuda error: %s\n", cudaGetErrorString(error));}
-    for(int i=0;i<N;i++){
-      /* below you can print the scores for a chromosomes every generation */
-      std::cout << "This is Generation: " << g << " and Chromosome (set of parameters): " << i << std::endl;
-      std::cout << "Score: " << scores[i] << std::endl;
-    /* below you can print out the scores and the first four barrier parameters,since we are using 
-     4 periodicity, the first 4 barrier parameters are for the 1st dihedral in the input file */
-     std::cerr << i << ": [" << ptrs[i] << "] = " << scores[i] << " {"<<Vs[ptrs[i]]<<" "<<Vs[ptrs[i]+1]<<" "<<Vs[ptrs[i]+2]<<" "<<Vs[ptrs[i]+3]<<"}\n";
-    }
-#endif
-
-/*****| Step6: Sort the scored chromosomes (individuals) & select for mating for next generation |**/
-#if DEBUG>2
-    std::cerr << "Move 1" << std::endl;
-#endif
+    // Step6: Sort the scored chromosomes (individuals) & select for mating for next generation 
+      // curList^1 change curList to 1
+      // move the scores and pointers to the chromosome for the elitist parents)
     moveEm <<<(save+BLOCK_SIZE-1)/BLOCK_SIZE, BLOCK_SIZE>>> (scores_ds[curList^1], ptrs_ds[curList^1], scores_ds[curList], ptrs_ds[curList], save);
-#if DEBUG>2
-    std::cerr << "Move 2" << std::endl;
-#endif
+     // curList^1 change curList to 0
+    // move the scores and pointers to the chromosome for the offsprings
     moveEm <<<(pSize+BLOCK_SIZE-1)/BLOCK_SIZE, BLOCK_SIZE>>> (scores_ds[curList^1]+save, ptrs_ds[curList^1]+save, scores_ds[curList]+pSize, ptrs_ds[curList]+pSize, pSize);//nOffspring);
-#if DEBUG>2
-    std::cerr << "Move 3" << std::endl;
-#endif
+    // curList^1 change curList to 1
+     // move the scores and pointers to the chromosome of the left over parent
     moveEm <<<(pSize-save+BLOCK_SIZE-1)/BLOCK_SIZE, BLOCK_SIZE>>> (scores_ds[curList^1]+save+pSize, ptrs_ds[curList^1]+save+pSize, scores_ds[curList]+save, ptrs_ds[curList]+save, pSize-save);
+    // curList back to 0
     curList^=1;
 
-    /* first sort only the non elitist with the offspring */
+    /* first sort only the offspring */
 #if DEBUG>1
     std::cerr << "Selection sort (" << N << " items, less " << save << ")" << std::endl;
 #endif
     thrust::sort_by_key(thrust::device_pointer_cast(scores_ds[curList]+save), thrust::device_pointer_cast(scores_ds[curList]+pSize+save), thrust::device_pointer_cast(ptrs_ds[curList]+save));
 
-    /* second sort  is to order the first sort within psize by fitness */
+    /* second sort  is to sort the elitist parent and the offsprings (psize-save) that fall into pSize */
 #if DEBUG>1
     std::cerr << "Rank sort" << std::endl;
 #endif
@@ -977,7 +905,6 @@ When rng_type is CURAND_RNG_PSEUDO_DEFAULT, the type chosen is CURAND_RNG_PSEUDO
         scorefile << std::setw(6) << g << std::setw(14) << m << std::setw(18) << scores[m]/nDataset << std::setw(18) << areas[m] << "\n";
       }
     }
-
 /* END GENETIC ALGORITM */
   } 
 
@@ -996,7 +923,7 @@ When rng_type is CURAND_RNG_PSEUDO_DEFAULT, the type chosen is CURAND_RNG_PSEUDO
 
 /****************************************************************************************************/
 // Here we will move the parameters back into the dihedral space 
-
+   // TODO: Write these out as functions in a seperate files
   // kept the parameters sorted so first Vs in ptrs[i] is best in Vs = Vs_dih[0]
   float *Vs_dih;    
   Vs_dih=(float *)malloc(N*trainingSize*sizeof(float));
@@ -1022,17 +949,10 @@ When rng_type is CURAND_RNG_PSEUDO_DEFAULT, the type chosen is CURAND_RNG_PSEUDO
     }
   }
 /****************************************************************************************************/
-
-
-// Here I am writing out the initial dE and the final dE, see load.cpp for description 
+   // Here I am writing out the initial dE and the final dE, see load.cpp for description 
   /* file that stores initial dE */
   std::ofstream fitfile;
   fitfile.open (fitFile.c_str(), ios::out); 
-  fitfile << "#dE = (E (QMi) - E (QMref) ) - ( E (MMi) - E (MMref) \n\n";
-  fitfile << "#ref is the first structure in each dataset  \n\n";
-  fitfile << "#Below is the target relative energy and the best relative energy after the fit \n\n";
-  fitfile << "#Conformations" << "      "<< "dE" <<  "      " << "dE_from_fit " <<   "      " << "Error: dE - dE_fromfit" << "\n";
-
   int i0, t;
   int b=0;
   int d=0; // index into dataset
@@ -1053,6 +973,7 @@ When rng_type is CURAND_RNG_PSEUDO_DEFAULT, the type chosen is CURAND_RNG_PSEUDO
      s=0.0f;
      /* loop only over in conformations within a dataset */
      while(c<breaks[b+1]){
+        float parm=0;
         /* start with delta E (tgts) for a given conformation (c) within a break; see load.cpp
           conf (c) goes through until it reach a break. the loop will set delta E */
         // get first index in genome
@@ -1082,13 +1003,16 @@ When rng_type is CURAND_RNG_PSEUDO_DEFAULT, the type chosen is CURAND_RNG_PSEUDO
              e.g deltaE - cos (dihedral * periodicity) * parameter generated from chromosomes
              Therefore, it is delta E - sum of cosines for each dihedral */
             x[c]-=Vs[i] * tset[t]; // Vs* tset is cos(n * dih)
+            parm += Vs[i] * (1+tset[t]);
 //#if DEBUG>2
             //printf("scoreIt: i = %d, c = %d, dih = %d, beg = %d, end = %d, t = %d, x[c] = %f,  Vs[i] = %f, tset[t] = %f \n",i,c,dih,beg,end,t,x[c],Vs[i],tset[t]);
 //#endif
           }
 
         }
-        fitfile << "; Parameters Energy for Conf "<< c << ": " << (holdc - x[c]) << "\n";
+        fitfile << "; Parameters Energy for Conf "<< c << ": " << parm << "\n";
+        fitfile << "; MM0 Energy for Conf "<< c << ": " << EMM0[c] << "\n";
+        fitfile << "; MM Energy for Conf "<< c << ": " << (EMM0[c] + parm) << "\n";
 
         /* add differences in this error from all other errors */
         //printf("outside loopscore for x[c] = %f\n", x[c]);
@@ -1196,7 +1120,7 @@ When rng_type is CURAND_RNG_PSEUDO_DEFAULT, the type chosen is CURAND_RNG_PSEUDO
   //END timing and report time in log file
   auto t2=std::chrono::high_resolution_clock::now();
   logfile <<"\n\n";
-  logfile << "GenA took " 
+  logfile << "RAGTAG took " 
           << std::chrono::duration_cast<std::chrono::milliseconds>(t2-t1).count() 
           << " milli seconds to obtain your parameters" << "\n";
 
