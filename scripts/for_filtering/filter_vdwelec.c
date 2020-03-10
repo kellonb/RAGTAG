@@ -26,7 +26,13 @@ enum elements_t {H=1,He,Li,Be,B,C,N,O,F,Ne,Na,Mg,Al,Si,P,S,Cl,Ar,K,Ca,Sc,Ti,V,Cr
 // array of backbone atom name, 9 atom name with 4 space for each
 char backbone[12][4] = {"HH31","HH33","HH32","CH3","C","CA","O","N","H", "H2", "H1", "H3"};
 // array of sidechain heavy atom name and polar hydrogens, atom name with 4 space for each
-char sidechain[56][4] = {"CB","CD","CD1","CD2","CH2","CG","CG1","CG2","CE","CE1","CE2","CE3","CZ","CZ2","CZ3","OD1","OD2","OE1","OE2","OG","OG1","OH","ND","ND1","ND2","NE","NE1","NE2","NH2","NZ","SD","SED","SG","O1P", "O2P", "O3P", "P", "H1P", "HO","HH21","HH22","HH11","HH12","HD2","HD21","HD22","HG","HE2", "HIA", "CIA", "CI", "OT", "NT", "CHB", "CHA", "CH"};
+char sidechain[77][4] = {"CB","CD","CD1","CD2","CH2","CG","CG1","CG2","CE","CE1","CE2","CE3",
+                         "CZ","CZ2","CZ3","OD1","OD2","OE1","OE2","OG","OG1","OH","ND","ND1",
+                         "ND2","NE","NE1","NE2","NH2","NZ","SD","SED","SG","O1P","O2P","O3P", 
+                         "P", "H1P", "HO","HH21","HH22","HH11","HH12","HD2","HD21","HD22",
+                         "HG","HE2", "HIA", "CIA", "CI", "OT", "NT", "CHB", "CHA", "CH",
+                         "C7","C8","C9","C10","C11","C12","C13","C14","C15","C16","C17",
+                         "C18","C19","C110","C111","C112","C113","C114","C115","C116","O3"};
 
 // atom type structure. xyz is the coordinates
 struct atom_t {
@@ -63,7 +69,8 @@ double distance(struct atom_t *a, struct atom_t *b) {
     return sqrt(r); //sqrt(r) = sqrt( (x2-x1)^2 + ((y2-y1)^2 + (z2-z1)^2)  
 }
 
-/* function calculate electrostic energy using E = q1*q2/distance  */
+/* function calculate electrostic energy using E = q1*q2/distance  
+TODO: Add 1-4 electrostatics scaling */
 double Elec_E(double q1, double q2, double dist){
     double E; 
     E = (q1 * q2) / dist;
@@ -91,7 +98,7 @@ void maskWithin(struct atom_t *atoms, int from, int numBonds, int *mask) {
  
 #define BUFF_SIZE 256
 #define BB_ATOM 12
-#define SC_ATOM 56
+#define SC_ATOM 77
 
 int main(int argc, char *argv[]) {
     /* declarations */
